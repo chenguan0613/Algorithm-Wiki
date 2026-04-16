@@ -57,6 +57,6 @@ int main() {
     cout << "Hello, Competitive Programming!" << endl;
     return 0;
 }
-```
+
 ---
 差不多就是这些了
