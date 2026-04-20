@@ -21,12 +21,12 @@ git commit -m "说明" #提交暂存区的改动到本地仓库
 ```
 
 ## 远程同步
-当我修改了仓库名称或者要在不同设备上同步的时候
+当我修改了仓库名称或者要在不同设备上同步的时候,注意这里是逻辑连接，改不了我们电脑上文件的物理名称
 ```
 git remote -v #查看当前的远程仓库地址
 git remote set-url origin <new-url> #修改远程仓库地址
 git pull #拉取远程代码并合并到本地
-git push originn<branch-name> #将本地提交推送到远程
+git push origin<branch-name> #将本地提交推送到远程对应的分支
 ```
 
 ## 分支管理
