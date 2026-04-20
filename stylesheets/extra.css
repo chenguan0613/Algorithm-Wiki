@@ -10,7 +10,7 @@
 
 .md-typeset th {
     background-color: #161b22 !important;
-    color: #3f94de !important;
+    color: #82c4ff !important;
     border: 1px solid #30363d !important;
     font-weight: 600 !important;
     text-transform: uppercase;
@@ -25,7 +25,7 @@
 
 
 .md-typeset td code {
-    color: #763a9d !important;
+    color: #c875ff !important;
     background-color: rgba(175, 184, 193, 0.1) !important;
     border-radius: 6px;
     padding: 0.1rem 0.3rem;
