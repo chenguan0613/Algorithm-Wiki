@@ -7,7 +7,9 @@ theme:
 nav:
   - Front Page: index.md
   - Writing Guide: markdown_guide.md
-  - Basic_Algorithm: Basic_Algorithm.md
+  - Git Guide: Git.md
+  - Algorithm:
+    - Basic_Algorithm: Basic_Algorithm.md
 
 
 markdown_extensions:
