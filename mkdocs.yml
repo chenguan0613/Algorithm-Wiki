@@ -10,6 +10,7 @@ nav:
   - Git Guide: Git.md
   - Algorithm:
     - Basic_Algorithm: Basic_Algorithm.md
+  - HTML: HTML.md
 
 
 markdown_extensions:
