@@ -115,4 +115,20 @@ gh代表Github,deploy即部署发布.运行后它会做三件事情
    ```powershell
    remote_branch: web-site #告诉指令往哪里push
    ```
+
+6.如何插入图片
+直接在markdown里插入图片的链接就好了，语法是这样的：
+```markdown
+![图片描述](图片链接)
+```
+
+举个例子，如果我想插入一张宵崎奏的照片，那就如下：
+
+特训前：
+！[Kanade](https://storage.sekai.best/sekai-jp-assets/character/member/res017_no032/card_normal.png)
+
+
+特训后：
+！[Kanade](https://storage.sekai.best/sekai-jp-assets/character/member/res017_no032/card_after_training.png)
+
 差不多就是这些了
