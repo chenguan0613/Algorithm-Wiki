@@ -28,7 +28,7 @@ int main(){
     vector<int> res;
     while(T--){
         cin>>N>>C>>W;
-        ll sum=C*(1+N)*N/2;
+        ll sum=(__int128)C*(1+N)*N/2;
         if(sum<W || W%C!=0){
             res.push_back(-1);
             continue;
@@ -37,11 +37,30 @@ int main(){
             res.push_back(0);
             continue;
         }
-        ll w=W/C;
-        ll 
+        ll w=W/C,gap=0,total=0;
+        ll left=1,right=N,k=1;
+        while(left<-right){
+            ll mid=left+(right-left)/2;
+            ll total=(mid+1)*mid/2;
+            if(total>w){
+                k=mid;
+                right=mid-1;
+            }
+            else{
+                left=mid+1;
+            }
+        }
+        if(gap==0 || gap==1||gap==w-1){
+            res.push_back(1);
+        }
+        else{
+            res.push_back(2);
+        }
     }
     for(auto num:res){
         cout<<num<<endl;
     }
     return 0;
 }
+//8
+//1 2 3 4
